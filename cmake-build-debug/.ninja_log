@@ -1,0 +1,8 @@
+# ninja log v6
+3	59	1738192524698905473	build.ninja	55c20f4fd967ca70
+1	9	1733600264018628952	clean	ad90e366ad70d77b
+5	603	1738191559741930511	CMakeFiles/RendererProject.dir/src/main.cpp.o	7fec333e203d4fc3
+2	490	1738191049583335636	CMakeFiles/RendererProject.dir/src/Rasterizer.cpp.o	65bce682fa48a11b
+5	636	1738191559742319095	CMakeFiles/RendererProject.dir/src/InputHandler.cpp.o	74d0c997d83aec07
+2	435	1738191049583190470	CMakeFiles/RendererProject.dir/src/LinAlg.cpp.o	576730e17d64a5f4
+636	676	1738191560372870959	RendererProject	8bd7e040fa998f35

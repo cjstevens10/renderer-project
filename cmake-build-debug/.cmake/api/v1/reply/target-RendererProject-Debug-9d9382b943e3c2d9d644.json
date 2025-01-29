@@ -1,0 +1,181 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "RendererProject"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -fcolor-diagnostics"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/Cellar/sfml/2.6.2/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5
+			]
+		}
+	],
+	"id" : "RendererProject::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/homebrew/Cellar/sfml/2.6.2/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/Cellar/sfml/2.6.2/lib/libsfml-graphics.2.6.2.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/Cellar/sfml/2.6.2/lib/libsfml-window.2.6.2.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/Cellar/sfml/2.6.2/lib/libsfml-system.2.6.2.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "RendererProject",
+	"nameOnDisk" : "RendererProject",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/InputHandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/InputHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/LinAlg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/LinAlg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Rasterizer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Rasterizer.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

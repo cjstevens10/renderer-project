@@ -1,0 +1,3 @@
+/Users/cooperstevens/Downloads/RendererProject/cmake-build-debug/CMakeFiles/RendererProject.dir
+/Users/cooperstevens/Downloads/RendererProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/cooperstevens/Downloads/RendererProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
